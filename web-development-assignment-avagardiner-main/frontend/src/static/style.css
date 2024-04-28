@@ -1,0 +1,743 @@
+/* CSS Stylesheet for the COMP2110 Bob's Jobs Board */
+/* AVA GARDINER (46410961) */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('http://fonts.cdnfonts.com/css/norwester');
+
+/* BODY OF THE PAGE */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #fdd1e0;
+}
+
+/* PAGE HEADER */
+
+.page-header {
+  height: 120px;
+  background-color: black;
+}
+
+/* LOGO */
+
+.logo {
+  position: absolute;
+  font-family: 'Norwester', sans-serif;
+  top: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+}
+
+.logo span {
+  color: #e91e63;
+}
+
+.video {
+  padding-left: 5%;
+  width: 100px;
+  height: 100px;
+}
+
+/*LOGIN*/
+
+.login-container {
+  position: absolute;
+  z-index: 999;
+  top: 85%;
+  left: 70%;
+  background: #fff;
+  width: 410px;
+  padding: 30px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  transform: translate(-50%, -50%);
+}
+
+.login-container .text {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.login-container form {
+  margin-top: -20px;
+}
+
+.login-container form .data {
+  height: 45px;
+  width: 100%;
+  margin: 40px 0;
+}
+
+form .data label {
+  font-size: 18px;
+}
+
+form .data input {
+  height: 100%;
+  width: 80%;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 1px solid #e91e63;
+}
+
+.user {
+  width: 30px;
+  height: 30px;
+}
+
+.pass {
+  width: 30px;
+  height: 30px;
+}
+
+form .forgot-pass {
+  margin-top: -8px;
+}
+
+form .forgot-pass a {
+  color: #e91e63;
+  text-decoration: none;
+}
+
+form .forgot-pass a:hover {
+  text-decoration: underline;
+}
+
+form .btn {
+  margin: 30px 0;
+  height: 45px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+form .btn button {
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+  background-color: #e91e63;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+form .btn button:hover {
+  background: #000;
+  color: #e91e63;
+  transition: all 500ms ease;
+}
+
+form .signup-link {
+  text-align: center;
+}
+
+form .signup-link a {
+  color: #e91e63;
+  text-decoration: none;
+}
+
+form .signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* MAIN NAVIGATION */
+
+.main-menu {
+  padding: 20px 10px;
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  width: 90%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  background: #fff;
+  display: flex;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .3);
+}
+
+.main-menu .selected {
+  list-style: none;
+  text-align: center;
+  display: block;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  flex-basis: 16.666%;
+}
+
+.main-menu .selected:last-child {
+  border-right: none;
+}
+
+.main-menu .selected .link {
+  text-decoration: none;
+  display: block;
+  color: #000;
+}
+
+.main-menu .selected .link:hover {
+  color: #e91e63;
+  background-color: #000;
+}
+
+.main-menu .selected .link .icon {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto 10px;
+}
+
+.main-menu .selected .link .icon .fa {
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  font-size: 34px;
+  transition: 0.5s;
+  color: #000;
+}
+
+.main-menu .selected .link .icon .fa:last-child {
+  color: #e91e63;
+}
+
+.main-menu .selected .link:hover .icon .fa {
+  transform: translateY(-100%)
+}
+
+/* SEARCH BAR */
+
+.search-container *,
+.search-container *:after,
+.search-container *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.search-container *:focus {
+  background: #000;
+  color: #e91e63;
+  outline: 0;
+}
+
+.search-container {
+  display: table;
+  position: relative;
+  width: 51px;
+  padding-left: 185px;
+}
+
+.btn {
+  background-color: #000000;
+}
+
+.fa {
+  color: #e91e63;
+  font-size: 30px;
+}
+
+.fa:hover {
+  color: #fff;
+}
+
+.search-icon-btn {
+  background-color: #000;
+  border: 1px solid #000;
+  display: table-cell;
+  height: 70px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 50px;
+  z-index: 2;
+}
+
+.search-input {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.search-input input.search-bar {
+  border: 3px solid #000;
+  height: 70px;
+  padding: 0px;
+  width: 200px;
+}
+
+.search-input input.search-bar:focus {
+  padding-left: 60px;
+  padding-right: 10px;
+  width: 200px;
+}
+
+.search-input input.search-bar,
+.search-icon-btn {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.search-container:hover>.search-input input.search-bar {
+  padding-right: 60px;
+  padding-left: 10px;
+  width: 1140px;
+}
+
+/* SEARCH BAR DROP DOWN MENU */
+
+#searchPopulate {
+  margin: 100px;
+}
+
+.dropdown {
+  background-color: #000000;
+  position: relative;
+  z-index: 10;
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  z-index: 9999;
+}
+
+.search-link {
+  color: #e91e63;
+  text-decoration: none;
+}
+
+.search-link:hover {
+  background-color: #e91e63;
+  color: #000000;
+  font-size: 25px;
+}
+
+/* MAIN TEXT FOR THE INDEX AND JOB PAGE */
+
+.main-heading {
+  padding-left: 10%;
+  padding-top: 20px;
+  padding-bottom: 5%;
+  background-color: #000;
+}
+
+.heading {
+  color: #fff;
+  padding-top: 2%;
+  font-size: 70px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1px;
+}
+
+.sub-heading {
+  color: #e91e63;
+  text-transform: uppercase;
+  line-height: 1px;
+  font-weight: bold;
+  padding-left: 10%;
+}
+
+/* MAIN BODY THAT CONTAINS THE JOB LISTING */
+
+.joblist {
+  background: white;
+  margin: auto;
+  margin-top: 5px;
+  width: 85%;
+  padding: 10px;
+  margin-bottom: 3px;
+  border-left: 3px solid #e91e63;
+  border-right: 3px solid #e91e63;
+}
+
+.job-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.link {
+  color: black;
+  text-decoration: underline #e91e63;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: #e91e63;
+  text-decoration-color: #000;
+}
+
+.job-description {
+  margin-right: 5%;
+  margin-left: 5%;
+  background: #fff;
+  text-align: justify;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
+.job-description .company-name .label {
+  font-size: 30px;
+  margin-left: 50%;
+}
+
+.job-description .company-name {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #e91e63;
+  font-size: larger;
+}
+
+.job-description .company-name a {
+  color: #000;
+  text-decoration-color: #e91e63;
+}
+
+.job-description .company-name a:hover {
+  color: #e91e63;
+  text-decoration-color: #000;
+
+}
+
+.job-description .job img {
+  width: 55%;
+}
+
+.job-description .job {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* FOOTER FOR ALL PAGES */
+
+footer {
+  height: 60px;
+  background: #000;
+}
+
+#copyright {
+  color: #e91e63;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#attribution {
+  color: #e91e63;
+  font-size: 10px;
+  text-align: center;
+}
+
+/* ABOUT US PAGE */
+
+.about-us {
+  margin-right: 5%;
+  margin-left: 5%;
+  height: 100%;
+  background: #fff;
+  padding-bottom: 1%;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  width: 100%;
+  color: #fff;
+  background: #000;
+  position: relative;
+}
+
+span.about{
+  color: #e91e63;
+  font-weight: bold;
+}
+
+.about span {
+  color: #e91e63;
+  font-weight: bolder;
+}
+
+.paragraphOne {
+  margin-left: 5%;
+  color: #e91e63;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  margin-left: 5%;
+  text-align: justify;
+  width: 90%;
+}
+
+.aboutVid {
+  float: left;
+  shape-margin:20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+  
+/* APPLICANT HELP PAGE */
+
+.applicant-help {
+  margin-right: 5%;
+  margin-left: 5%;
+  height: 100%;
+  background: #fff;
+  padding-bottom: 1%;
+}
+
+.applicant {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  width: 100%;
+  color: #fff;
+  background: #000;
+  position: relative;
+}
+
+.paragraphtwo {
+  margin-left: 5%;
+  color: #e91e63;
+}
+
+.helplist {
+  margin-left: 8%;
+}
+
+.applicant span {
+  color: #e91e63;
+  font-weight: bolder;
+}
+
+@media (max-width: 992px) {
+  .page-header {
+    height: 100px;
+  }
+
+  .video {
+    width: 80px;
+    height: 80px;
+  }
+
+  .main-menu {
+    top: 20%;
+    justify-content: space-between;
+    zoom: 0.7;
+  }
+
+  .main-menu .selected {
+    flex-basis: 13%;
+  }
+
+  .main-menu .selected:last-child {
+    flex: 1;
+  }
+
+  .main-menu .selected .link {  
+      font-size: 10px;
+      
+  }
+
+  .main-menu .selected .link .icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto 5px;
+  }
+
+  .main-menu .selected .link .icon .fa {
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 17px;
+    transition: 0.5s;
+  }
+
+  .search-container {
+    padding-left: 77%;
+  }
+
+  .search-input input.search-bar {
+    height: 70px;
+    padding: 0px;
+    width: 50px;
+  }
+
+  .search-container:hover>.search-input input.search-bar {
+    width: 648px;
+  }
+
+  #searchPopulate {
+    margin: 29px;
+    margin-top: 70px;
+  }
+
+  .search-link {
+    font-size:smaller;
+  }
+
+  .search-link:hover {
+    font-size: medium;
+  }
+
+  .login-container {
+    top: 45%;
+    left: 50%;
+    width: 410px;
+    padding: 15px;
+    background: transparent;
+  }
+
+  .login-container .text {
+    display: none;
+  }
+
+  .login-container form .data {
+    height: 30px;
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  form .data input {  
+    font-size: 10px;
+  }
+
+  form .btn {
+    margin: 15px 0;
+    height: 35px;
+  }
+
+  form .btn button {
+    font-size: 12px;
+  }
+
+  .forgot-pass {
+    font-size: 10px;
+    position: absolute;
+    left: 58%;
+    bottom: 9%;
+  }
+
+  .signup-link {
+    font-size: 10px;
+    left: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 58%;
+  }
+
+  .heading {
+    color: #e91e63;
+    padding-top: 2%;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1px;
+  }
+
+  .sub-heading {
+    color: #fff;
+  }
+
+  .job-detail {
+    font-size: small;
+  }
+
+  .job-description {
+    font-size: small;
+  }
+
+  .job-description .company-name .label {
+    font-size: 15px;
+  }
+
+  .about {
+    font-size: 10px;
+  }
+
+  .paragraphOne {
+    font-size: small;
+  }
+
+  .paragraph {
+    font-size:small
+  }
+
+  .aboutVid {
+    margin-top: 15px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .applicant {
+    font-size: 10px;
+  }
+
+  .paragraphtwo {
+    font-size: small;
+  }
+
+  .helplist {
+    font-size: small;
+  }
+}
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

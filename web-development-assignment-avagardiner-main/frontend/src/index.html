@@ -1,0 +1,179 @@
+<!--AVA GARDINER (46410961)-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bob's Jobs!</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+
+    <!-- ICONS IMPORTED FROM FONTAWESOME FOR NAVBAR -->
+
+    <script src="https://kit.fontawesome.com/75ff7e8c5f.js" crossorigin="anonymous"></script>
+
+    <!-- Include Handlebars from a CDN -->
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+
+    <!-- IMPORTED JQUERY FOR SEARCH BAR-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./js/main.js" type=module defer></script>
+
+  </head>
+  <body>
+
+    <!--PAGE HEADER-->
+
+    <header class="page-header">
+
+      <!--VIDEO LOGO-->
+
+      <video class="video" loop="true" autoplay="autoplay" muted>
+        <source src="img/logo.mp4" type="video/mp4">
+      </video>
+
+      <!--LOGO-->
+
+      <a href="#" class="logo">B<span>o</span>b's J<span>o</span>bs!</a>
+
+      <!--MAIN PAGE HEADER-->
+
+      <div class="page-header-main ">
+
+      <!--MAIN NAVIGATION-->
+
+      <nav class="main-nav">
+
+        <!--MAIN MENU-->
+
+        <ul class="main-menu">
+        <li class="selected">
+          <a class="link" href = "#!/index.html">
+            <div class="icon">
+              <i class="fa fa-solid fa-house"></i>
+              <i class="fa fa-solid fa-house"></i>
+            </div>
+            Home
+          </a>
+        </li>
+        <li class="selected">
+          <a class="link" href = "#!/jobs.html">
+            <div class="icon">
+              <i class="fa fa-solid fa-briefcase"></i>
+              <i class="fa fa-solid fa-briefcase"></i>
+            </div>
+            Jobs
+          </a>
+        </li>
+        <li class="selected" >
+          <a class="link" href = "#!/companies.html">
+            <div class="icon">
+              <i class="fa fa-solid fa-building"></i>
+              <i class="fa fa-solid fa-building"></i>
+            </div>
+            Companies
+          </a>
+        </li>
+        <li class = "selected">
+          <a class="link" href = "#!/about.html">
+            <div class="icon">
+              <i class="fa fa-solid fa-file-lines"></i>
+              <i class="fa fa-solid fa-file-lines"></i>
+            </div>
+            About Us
+          </a>
+        </li>
+        <li class="selected">
+          <a class="link" href = "#!/help.html">
+            <div class="icon">
+              <i class="fa fa-solid fa-hand"></i>
+              <i class="fa fa-solid fa-hand"></i>
+            </div>
+            Applicant Help
+          </a>
+        </li>
+        <li class="selected">
+          <div class="search-container">
+            <div class="search-icon-btn">
+              <button class="btn" id = "searchbutton"><i class="fa fa-search"></i></button>
+            </div>
+            <div class="search-input">
+              <input type="search" class="search-bar" id="search" placeholder="Search...">
+            </div>
+        </div>
+     </li>
+  </nav>
+
+      <!--DROP DOWN MENU WHEN SEARCHING FOR A JOB-->
+      
+      <ul class="dropdown" id="searchPopulate"></ul>
+
+    </header>
+
+    <!--MAIN BODY OF THE WEB APPLICATION-->
+
+    <main>
+      <!--BACKGROUND IMAGE BEHIND REGISTRATION FORM-->
+      <div class="signup-banner">
+        <div class="image-banner">
+          <img class="banner" src="./img/banner.jpg" alt="banner" height="100%" width="100%">
+        </div>
+
+         <!--LOGIN AUTHENTICATION-->
+
+      <div class="login-form">
+
+        <!--LOGIN FORM THAT POPS UP ON SCREEN-->
+
+        <div class="login-container">
+
+          <!--FORM NAME-->
+
+          <div class="text">Login</div>
+
+          <!--MAIN INPUT-->
+
+          <form action="#">
+            <div class="data">
+              <span><i class=" user fa-solid fa-user"></i></span>
+              <input name="username" type="text" placeholder="Username" required>
+            </div>
+            <div class="data">
+              <span><i class=" pass fa-solid fa-unlock"></i></span>
+              <input name="password" type="password" placeholder="Password" required>
+            </div>
+            <div class="forgot-pass">
+              <a href="#">Forgot Password?</a>
+            </div>
+            <div class="btn">
+              <div class="inner"></div>
+              <button type="submit" id="loginbutton">Login</button>
+            </div>
+            <div class="signup-link">Not a member? 
+              <a href="#">Signup Now</a>
+            </div>
+          </form>
+        </div>
+
+      <!--MAIN BODY THAT CONTAINS THE JOB LISTING-->
+      <div class="jobs" id="content"></div>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer id="footer">
+      <p id="copyright">Copyright &copy; COMP2110 Web Designers, 2022.</p>
+      <p id="attribution">Bob's Jobs is a service of Bob Bobalooba Enterprises.</p>
+    </footer>
+
+    <!--IMPORTING JQUERY INTO HTML FILE-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--JQUERY CODE THAT RELATES TO THE SEARCH BAR-->
+    <script src="./js/jquery.js"></script>
+
+  </body>
+</html>
