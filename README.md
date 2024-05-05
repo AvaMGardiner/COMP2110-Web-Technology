@@ -10,6 +10,8 @@ I also gained insights into the programming techniques employed to leverage thes
 
 **Technology Used**
 
-In this project, I utilized several tools and software. I wrote my code using Visual Studio Code, a powerful and versatile code editor. To ensure compatibility and responsiveness across different platforms, I tested my web pages on various web browsers. These included Firefox, Internet Explorer, Chrome, Safari, and Opera. All of this software was run on my Windows operating system.
+In this project, I utilised several tools and software. I wrote my code using [**Visual Studio Code**](https://code.visualstudio.com/Download), a powerful and versatile code editor. To ensure compatibility and responsiveness across different platforms, I tested my web pages on various web browsers. These included [**Firefox**](https://www.mozilla.org/en-US/firefox/), [**Internet Explorer**](https://www.microsoft.com/en-au/download/internet-explorer.aspx), [**Chrome**](https://www.google.com/chrome/), and [**Opera**](https://www.opera.com/download). All of this software was run on my Windows operating system.
 
-Later in the unit, I was introduced to Strapi, a more robust server-side package. Strapi implements a backend JSON server, which I used to serve data to a front-end Javascript application. This tool significantly enhanced the functionality and efficiency of my web development process. Overall, the combination of these tools provided a comprehensive environment for web development, allowing me to effectively build and test my web applications.
+Later in the unit, I was introduced to [**Strapi**](https://strapi.io/), a more robust server-side package. Strapi implements a backend JSON server, which I used to serve data to a front-end Javascript application. This tool significantly enhanced the functionality and efficiency of my web development process. Overall, the combination of these tools provided a comprehensive environment for web development, allowing me to effectively build and test my web applications.
+
+
