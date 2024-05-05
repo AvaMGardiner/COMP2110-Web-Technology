@@ -14,4 +14,12 @@ In this project, I utilised several tools and software. I wrote my code using [*
 
 Later in the unit, I was introduced to [**Strapi**](https://strapi.io/), a more robust server-side package. Strapi implements a backend JSON server, which I used to serve data to a front-end Javascript application. This tool significantly enhanced the functionality and efficiency of my web development process. Overall, the combination of these tools provided a comprehensive environment for web development, allowing me to effectively build and test my web applications.
 
+---------
 
+**Web Design**
+
+In my web design assignment, I created a CSS stylesheet for a sample webpage. The distinctive feature of this task was the peer-review process. I had the chance to evaluate and provide feedback on my classmates' work, and they did the same for mine. The final grade was determined by the peer evaluations. This assignment not only honed my technical skills but also developed my critical analysis and feedback abilities. It was an enriching experience that broadened my knowledge of web design and the peer review process.
+
+**Web Application**
+
+In my web development assignment, I was tasked with building a job listing web application, similar to platforms like Seek or Glassdoor. The application was engineered to showcase a list of available jobs, incorporate a search feature for users to locate specific jobs, enable users to delve into job details, and subsequently apply for a job. The project required the use of a data store and had to meet a set of functional requirements. I was also provided with tests that my code needed to pass to ensure its functionality and reliability. This assignment was both challenging and rewarding, pushing me to apply my web development skills in a real-world context.
