@@ -1,8 +1,8 @@
 # Web Development Assignment
 
-The task for the web development assignment this year is to build a job listing web application. Your app will show a list of posted jobs, allow users to search them and view job details, and then submit an application for a job. This will be a simplified version of something like Seek or Glassdoor. The goal is to give you experience in building a realistic web application within the confines of this introductory unit.
+The task for the web development assignment this year is to build a job listing web application. Your app will show a list of posted jobs, allow users to search them and view job details, and then submit an application for a job. This will be a simplified version of something like [**Seek**](https://www.seek.com.au/) or [**Glassdoor**](https://www.glassdoor.com.au/index.htm). The goal is to give you experience in building a realistic web application within the confines of this introductory unit.
 
-The task is split into two parts: front-end and back-end. For the back end, we will use Strapi which makes it easy to set up a database that provides a JSON-based API. For the front end, we'll write JavaScript code in the style that you've been developing in the workshops.
+The task is split into two parts: front-end and back-end. For the back end, we will use [**Strapi**](https://strapi.io/) which makes it easy to set up a database that provides a JSON-based API. For the front end, we'll write JavaScript code in the style that you've been developing in the workshops.
 
 ## Two Submission Points
 
@@ -24,7 +24,7 @@ Note that if you don't pass all of the tests, Github will show them as failing, 
 
 Now that the first submission is done, the requirements for levels 3 and 4 are available. As before, the requirements are described in the files in the doc folder of your project. You can get the updated files here:
 
-1. Download level34.zip which contains the updated files and copy them into your project. This should add the new files to your repository (git add, or via VSCode) and commit the changes. NOTE: an earlier version of this zip file (or the patch file) was missing a few details - please update.
+1. Download [level34.zip](https://github.com/AvaMGardiner/COMP2110-Web-Technology/files/15211709/level34.zip) which contains the updated files and copy them into your project. This should add the new files to your repository (git add, or via VSCode) and commit the changes. NOTE: an earlier version of this zip file (or the patch file) was missing a few details - please update.
 
 For now, these files do not include updated tests. These will be released a little later when we have fully debugged them.
 
