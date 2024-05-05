@@ -24,7 +24,7 @@ Note that if you don't pass all of the tests, Github will show them as failing, 
 
 Now that the first submission is done, the requirements for levels 3 and 4 are available. As before, the requirements are described in the files in the doc folder of your project. You can get the updated files here:
 
-1. Download [level34.zip](https://github.com/AvaMGardiner/COMP2110-Web-Technology/files/15211709/level34.zip) which contains the updated files and copy them into your project. This should add the new files to your repository (git add, or via VSCode) and commit the changes. NOTE: an earlier version of this zip file (or the patch file) was missing a few details - please update.
+1. Download [**level34.zip**](https://github.com/AvaMGardiner/COMP2110-Web-Technology/files/15211709/level34.zip) which contains the updated files and copy them into your project. This should add the new files to your repository (git add, or via VSCode) and commit the changes. NOTE: an earlier version of this zip file (or the patch file) was missing a few details - please update.
 
 For now, these files do not include updated tests. These will be released a little later when we have fully debugged them.
 
