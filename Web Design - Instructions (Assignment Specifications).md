@@ -12,7 +12,7 @@ You can use any browser you want to test your design but it should be a modern o
 
 ## Github Classroom
 
-The starter kit for this assignment is available when you accept the assignment on Github Classroom. Click on [this link](#) to accept the assignment. This will create a copy of the assignment repository for you with the starter files. Complete your work in that repository and commit your changes often. Push frequently to Github to ensure you don't lose any work.
+The starter kit for this assignment is available when you accept the assignment on Github Classroom. Click on [**this link to accept the assignment**](https://classroom.github.com/assignment-invitations/ff177d94a234328d5367b30371516a47/status) to accept the assignment. This will create a copy of the assignment repository for you with the starter files. Complete your work in that repository and commit your changes often. Push frequently to Github to ensure you don't lose any work.
 
 ## Submission
 
