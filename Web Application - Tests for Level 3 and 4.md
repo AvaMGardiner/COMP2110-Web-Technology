@@ -1,6 +1,7 @@
 # Tests for Level 3 and 4
 
-The zip file `level34-tests.zip` contains the tests for levels 3 and 4 that will be used for autograding.
+The zip file `[level34-tests.zip](https://github.com/AvaMGardiner/COMP2110-Web-Technology/files/15211699/level34-tests.zip)
+` contains the tests for levels 3 and 4 that will be used for autograding.
 
 Unpack the zip file and copy the files into your project:
 
