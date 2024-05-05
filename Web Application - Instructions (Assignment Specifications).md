@@ -70,4 +70,4 @@ Note: Comments, function and variable names coupled with well-written (structure
 - Adjustability: Page size adjusts accordingly with smaller or wider screen size. Responsive web design is not required, just ensure your page displays properly with different screen sizes, i.e., when the user adjusts the page size, the page is rearranged and still presentable and usable.
 - Browser Support: Displays well on different modern desktop browsers (e.g., Chrome, Firefox, Edge, and Safari).
 - Structure of Pages: the page structure is clear, tidy, and easy to use.
-- Aesthetics: Consistent color schema with attention to color combinations, e.g., background/foreground contrast (i.e., BG is not too busy). If you are interested, please read on color theory ([link1], [link2]).
+- Aesthetics: Consistent color schema with attention to color combinations, e.g., background/foreground contrast (i.e., BG is not too busy). If you are interested, please read on color theory ([link1](), [link2]()).
