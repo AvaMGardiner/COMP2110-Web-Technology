@@ -10,11 +10,15 @@ There will be two submissions for this assignment. In the first (26th April, 5pm
 
 ## Getting Started
 
-We will again use Github Classroom to manage the assignment and you will do your work in a new repository. Please follow [this link](#) to accept the assignment and get your own repository.
+We will again use Github Classroom to manage the assignment and you will do your work in a new repository. Please follow [**Github Classroom Assignment**](https://classroom.github.com/assignment-invitations/432e1a8188de23c3cecc0ef55b0db21a/status) to accept the assignment and get your own repository.
 
 The full requirements for the assignment are contained in the files in the repository. At the moment these are only detailed for levels 1 and 2, updates will be made available soon for the remaining levels.
 
 The repository contains sample data that you will use to get started and prototype your front-end code. It also contains automated tests and these will be run every time you push your code to Github. You can also run the automated tests locally using Cypress. At the moment, the tests for levels 1 and 2 are provided.
+
+Note that if you don't pass all of the tests, Github will show them as failing, [**you can look at the detailed output to see which tests you are passing if any**(https://docs.github.com/en/education/manage-coursework-with-github-classroom/learn-with-github-classroom/view-autograding-results). 
+
+-------
 
 ### Levels 3 and 4
 
@@ -31,6 +35,8 @@ For reference, here are the updated documentation files (for the other files tha
 - doc/level3-4.md
 - doc/backend.md
 - doc/data.md
+
+---------
 
 ## Grading
 
@@ -64,4 +70,4 @@ Note: Comments, function and variable names coupled with well-written (structure
 - Adjustability: Page size adjusts accordingly with smaller or wider screen size. Responsive web design is not required, just ensure your page displays properly with different screen sizes, i.e., when the user adjusts the page size, the page is rearranged and still presentable and usable.
 - Browser Support: Displays well on different modern desktop browsers (e.g., Chrome, Firefox, Edge, and Safari).
 - Structure of Pages: the page structure is clear, tidy, and easy to use.
-- Aesthetics: Consistent color schema with attention to color combinations, e.g., background/foreground contrast (i.e., BG is not too busy). If you are interested, please read on color theory ([link1](#), [link2](#)).
+- Aesthetics: Consistent color schema with attention to color combinations, e.g., background/foreground contrast (i.e., BG is not too busy). If you are interested, please read on color theory ([link1], [link2]).
