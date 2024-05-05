@@ -15,7 +15,7 @@ You should:
 
 Once you have the files in place, run:
 
-npm install
+`npm install`
 
 to install new dependencies.
 
