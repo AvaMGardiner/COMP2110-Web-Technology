@@ -4,7 +4,7 @@ This semester we'll be writing a web application that implements a jobs board.  
 
 This project contains a sample page in HTML, it contains various elements that might be common for a front page like this - navigation, header, listings of jobs, company reviews etc.
 
-Your task is to complete the CSS stylesheet (`static/style.css`) to be included from this page to make the page look as good as possible.  You are **not allowed to change the HTML code**. You may only write CSS rules to reference what is already in the page to change the layout and display properties. In this respect, this exercise is similar to the [CSS Zen Garden](https://csszengarden.com/) discussed in the 'CSS Zen Garden' video.
+Your task is to complete the CSS stylesheet (`static/style.css`) to be included from this page to make the page look as good as possible.  You are **not allowed to change the HTML code**. You may only write CSS rules to reference what is already in the page to change the layout and display properties. In this respect, this exercise is similar to the [**CSS Zen Garden**](https://csszengarden.com/) discussed in the 'CSS Zen Garden' video.
 
 The HTML page you are provided with contains many elements, classes and ids that can be used in your CSS stylesheet rules.  There are standard elements such as navigation lists and header blocks that you will find are similar to those used in many CSS tutorials including the ones from the lecture material in this unit.  
 
