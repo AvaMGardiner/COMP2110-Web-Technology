@@ -16,7 +16,7 @@ The full requirements for the assignment are contained in the files in the repos
 
 The repository contains sample data that you will use to get started and prototype your front-end code. It also contains automated tests and these will be run every time you push your code to Github. You can also run the automated tests locally using Cypress. At the moment, the tests for levels 1 and 2 are provided.
 
-Note that if you don't pass all of the tests, Github will show them as failing, [**you can look at the detailed output to see which tests you are passing if any**(https://docs.github.com/en/education/manage-coursework-with-github-classroom/learn-with-github-classroom/view-autograding-results). 
+Note that if you don't pass all of the tests, Github will show them as failing, [**you can look at the detailed output to see which tests you are passing if any**](https://docs.github.com/en/education/manage-coursework-with-github-classroom/learn-with-github-classroom/view-autograding-results). 
 
 -------
 
